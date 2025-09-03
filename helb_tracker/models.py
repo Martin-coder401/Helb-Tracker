@@ -1,6 +1,6 @@
 from sqlalchemy import Column, Integer, String, Float, ForeignKey, Date
 from sqlalchemy.orm import relationship
-from .database import Base  # import Base from database.py
+from .database import Base  
 
 class Student(Base):
     __tablename__ = "students"
@@ -9,7 +9,7 @@ class Student(Base):
     name = Column(String, nullable=False)
     email = Column(String, unique=True, nullable=False)
     course = Column(String, nullable=False)
-    year = Column(Integer, nullable=False)   # ✅ changed from year_of_study → year
+    year = Column(Integer, nullable=False)   
 
     loans = relationship("Loan", back_populates="student")
 
