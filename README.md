@@ -1,8 +1,7 @@
 # Helb-Tracker
 
 Helb-Tracker is a simple Python/SQLite application for managing students, loans, and disbursements using SQLAlchemy and Alembic for database migrations.
-Video recording of the app has been embended in this link https://www.veed.io/view/b0b58915-6bd2-4832-ab12-876e2e84a43e?panel=share
-## Features
+Video recording of the app has been embended in this link https://www.veed.io/view/a334ac69-13c7-405f-b906-7e09219a454a?panel=share
 
 - Manage students, loans, and loan disbursements
 - Track loan balances
